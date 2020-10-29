@@ -13,6 +13,9 @@ typedef enum
 	HAL_UART_MAX,
 }HAL_UART_TYPE;
 
+//void UsartSendByte(USART_TypeDef* USARTx,uint8 ch);
+//void UsartSendString(USART_TypeDef* USARTx,uint8 *str);
+
 static void receive_char(char ch);
 static int read_buf(char* buf, int len);
 void hal_uart_init(int uart_id, uint32_t baud);

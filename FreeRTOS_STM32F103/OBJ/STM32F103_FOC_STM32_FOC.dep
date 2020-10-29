@@ -1,8 +1,8 @@
 Dependencies for Project 'STM32F103_FOC', Target 'STM32_FOC': (DO NOT MODIFY !)
-F (..\CMSIS_STM32F103ZET6\CORE\core_cm3.c)(0x4C0C587E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+F (..\CMSIS_STM32F103ZET6\CORE\core_cm3.c)(0x4C0C587E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
-F (..\CMSIS_STM32F103ZET6\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_HD SETA 1"--list ..\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\misc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\CMSIS_STM32F103ZET6\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_HD SETA 1"--list ..\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\misc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -31,7 +31,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_adc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -60,7 +60,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -89,7 +89,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_can.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_can.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_can.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -118,7 +118,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_cec.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -147,7 +147,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_crc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -176,7 +176,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_dac.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -205,7 +205,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -234,7 +234,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_dma.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -263,7 +263,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -292,7 +292,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -321,7 +321,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -350,7 +350,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -379,7 +379,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -408,7 +408,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -437,7 +437,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -466,7 +466,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -495,7 +495,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -524,7 +524,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -553,7 +553,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -582,7 +582,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -611,7 +611,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -640,7 +640,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
+F (..\CMSIS_STM32F103ZET6\FWLIB\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -669,7 +669,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\USER\stm32f10x_it.c)(0x583BA648)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+F (..\CMSIS_STM32F103ZET6\USER\stm32f10x_it.c)(0x583BA648)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x_it.h)(0x4D99A426)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -699,7 +699,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\CMSIS_STM32F103ZET6\USER\system_stm32f10x.c)(0x5F8AFDBC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+F (..\CMSIS_STM32F103ZET6\USER\system_stm32f10x.c)(0x5F8AFDBC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
@@ -728,7 +728,7 @@ I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\CMSIS_STM32F103ZET6\FWLIB\inc\misc.h)(0x4D783BB4)
-F (..\DEV\src\dev_sysTick.c)(0x5F8AF42F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_systick.o --omf_browse ..\obj\dev_systick.crf --depend ..\obj\dev_systick.d)
+F (..\DEV\src\dev_sysTick.c)(0x5F8AF42F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_systick.o --omf_browse ..\obj\dev_systick.crf --depend ..\obj\dev_systick.d)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
@@ -766,9 +766,9 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
 I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-F (..\DEV\src\dev_led.c)(0x5F8CF90D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_led.o --omf_browse ..\obj\dev_led.crf --depend ..\obj\dev_led.d)
+F (..\DEV\src\dev_led.c)(0x5F8CF90D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_led.o --omf_browse ..\obj\dev_led.crf --depend ..\obj\dev_led.d)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
@@ -806,9 +806,9 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
 I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-F (..\DEV\src\dev_beep.c)(0x5F8D0951)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_beep.o --omf_browse ..\obj\dev_beep.crf --depend ..\obj\dev_beep.d)
+F (..\DEV\src\dev_beep.c)(0x5F8D0951)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dev_beep.o --omf_browse ..\obj\dev_beep.crf --depend ..\obj\dev_beep.d)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -846,9 +846,9 @@ I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-F (..\HAL\src\hal_uart.c)(0x5F98C6D6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hal_uart.o --omf_browse ..\obj\hal_uart.crf --depend ..\obj\hal_uart.d)
+F (..\HAL\src\hal_uart.c)(0x5F9AD671)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hal_uart.o --omf_browse ..\obj\hal_uart.crf --depend ..\obj\hal_uart.d)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -886,9 +886,9 @@ I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-F (..\HAL\src\hal_adc.c)(0x5F8CEDDA)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hal_adc.o --omf_browse ..\obj\hal_adc.crf --depend ..\obj\hal_adc.d)
+F (..\HAL\src\hal_adc.c)(0x5F8CEDDA)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hal_adc.o --omf_browse ..\obj\hal_adc.crf --depend ..\obj\hal_adc.d)
 F (..\PUB\log.c)(0x5F93945D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\log.o --omf_browse ..\obj\log.crf --depend ..\obj\log.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\DEV\inc\dev_def.h)(0x5F8D0951)
@@ -940,7 +940,7 @@ I (..\RTOS\include\FreeRTOS.h)(0x573F3A16)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (..\RTOS\include\FreeRTOSConfig.h)(0x5F86ABAD)
-F (..\SRC\main.c)(0x5F98C842)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (..\SRC\main.c)(0x5F9AD170)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CMSIS_STM32F103ZET6\CORE\core_cm3.h)(0x4D523B58)
@@ -978,10 +978,10 @@ I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-I (..\SRC\inc\main.h)(0x5F97FC6B)
-F (..\SRC\system.c)(0x5F98C842)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Users\Chargedot\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system.o --omf_browse ..\obj\system.crf --depend ..\obj\system.d)
+I (..\SRC\inc\main.h)(0x5F9AC5A7)
+F (..\SRC\system.c)(0x5F9AC98B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS_STM32F103ZET6\CORE -I ..\CMSIS_STM32F103ZET6\FWLIB\inc -I ..\CMSIS_STM32F103ZET6\USER -I ..\RTOS\include -I ..\SRC\inc -I ..\DEV\inc -I ..\PUB\inc -I ..\HAL\inc-I.\RTE\_STM32_FOC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system.o --omf_browse ..\obj\system.crf --depend ..\obj\system.d)
 I (..\SRC\inc\system.h)(0x5F8AE13D)
 I (..\SRC\inc\config.h)(0x5F966D72)
 I (..\CMSIS_STM32F103ZET6\USER\stm32f10x.h)(0x4D783CB4)
@@ -1019,6 +1019,6 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
 I (..\DEV\inc\dev_sysTick.h)(0x5F8AF439)
 I (..\DEV\inc\dev_led.h)(0x5F8CF74B)
 I (..\DEV\inc\dev_beep.h)(0x5F8CF333)
-I (..\HAL\inc\hal_uart.h)(0x5F9811B4)
+I (..\HAL\inc\hal_uart.h)(0x5F9AD671)
 I (..\DEV\inc\dev_def.h)(0x5F97FC45)
-F (..\README\readme.txt)(0x5F97FB6E)()
+F (..\README\readme.txt)(0x5F9ACB65)()
