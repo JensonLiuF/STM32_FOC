@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS_STM32F103ZET6\CORE;..\CMSIS_STM32F103ZET6\FWLIB\inc;..\CMSIS_STM32F103ZET6\USER;..\RTOS\include;..\SRC\inc;..\DEV\inc;..\PUB\inc;..\HAL\inc</IncludePath>
+              <IncludePath>..\CMSIS_STM32F103ZET6\CORE;..\CMSIS_STM32F103ZET6\FWLIB\inc;..\CMSIS_STM32F103ZET6\USER;..\RTOS\include;..\SRC\inc;..\DEV\inc;..\PUB\inc;..\HAL\inc;..\RTOS\port\RVDS\ARM_CM3</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -527,16 +527,16 @@
               <FileType>1</FileType>
               <FilePath>..\CMSIS_STM32F103ZET6\USER\system_stm32f10x.c</FilePath>
             </File>
+            <File>
+              <FileName>FreeRTOSConfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\RTOS\include\FreeRTOSConfig.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>DEV</GroupName>
           <Files>
-            <File>
-              <FileName>dev_sysTick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\DEV\src\dev_sysTick.c</FilePath>
-            </File>
             <File>
               <FileName>dev_led.c</FileName>
               <FileType>1</FileType>
@@ -584,7 +584,7 @@
                   <RVCTZI>0</RVCTZI>
                   <RVCTOtherData>0</RVCTOtherData>
                   <ModuleSelection>0</ModuleSelection>
-                  <IncludeInBuild>0</IncludeInBuild>
+                  <IncludeInBuild>1</IncludeInBuild>
                   <AlwaysBuild>2</AlwaysBuild>
                   <GenerateAssemblyFile>2</GenerateAssemblyFile>
                   <AssembleAssemblyFile>2</AssembleAssemblyFile>
@@ -640,7 +640,7 @@
               <RVCTZI>0</RVCTZI>
               <RVCTOtherData>0</RVCTOtherData>
               <ModuleSelection>0</ModuleSelection>
-              <IncludeInBuild>0</IncludeInBuild>
+              <IncludeInBuild>1</IncludeInBuild>
               <AlwaysBuild>2</AlwaysBuild>
               <GenerateAssemblyFile>2</GenerateAssemblyFile>
               <AssembleAssemblyFile>2</AssembleAssemblyFile>
@@ -706,42 +706,42 @@
             <File>
               <FileName>croutine.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\croutine.c</FilePath>
+              <FilePath>..\RTOS\src\croutine.c</FilePath>
             </File>
             <File>
               <FileName>event_groups.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\event_groups.c</FilePath>
+              <FilePath>..\RTOS\src\event_groups.c</FilePath>
             </File>
             <File>
               <FileName>list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\list.c</FilePath>
+              <FilePath>..\RTOS\src\list.c</FilePath>
             </File>
             <File>
               <FileName>queue.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\queue.c</FilePath>
+              <FilePath>..\RTOS\src\queue.c</FilePath>
             </File>
             <File>
               <FileName>tasks.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\tasks.c</FilePath>
+              <FilePath>..\RTOS\src\tasks.c</FilePath>
             </File>
             <File>
               <FileName>timers.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\timers.c</FilePath>
+              <FilePath>..\RTOS\src\timers.c</FilePath>
             </File>
             <File>
               <FileName>heap_4.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\portable\MemMang\heap_4.c</FilePath>
+              <FilePath>..\RTOS\port\MemMang\heap_4.c</FilePath>
             </File>
             <File>
               <FileName>port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\RTOS\portable\RVDS\ARM_CM3\port.c</FilePath>
+              <FilePath>..\RTOS\port\RVDS\ARM_CM3\port.c</FilePath>
             </File>
           </Files>
         </Group>

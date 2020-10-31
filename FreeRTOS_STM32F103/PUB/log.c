@@ -23,8 +23,8 @@ int fputc(int ch, FILE *f)
 	/* e.g. write a character to the USART */
 	if (ch == '\n')
     {
-		hal_uart_sendbyte(LOG_UART, '\r');
+		hal_uart_sendbyte(HAL_UART_1, '\r');
 	}
-	return (hal_uart_sendbyte(LOG_UART, (uint8_t)ch));
+	return (hal_uart_sendbyte(HAL_UART_1, (uint8_t)ch));
 }
 

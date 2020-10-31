@@ -2,10 +2,9 @@ led port A	portA.0, portA.1
 
 beep port A portA.2
 
-ไธฒๅฃไปฟ็ๅ‘ฝไปค
-	MODE COM2 115200,0,8,1
-	ASSIGN COM2 <S1IN>S1OUT
-	
+ดฎฟฺทยีๆ รüม๎
+	MODE COM1 115200,0,8,1
+	ASSIGN COM1 <S1IN>S1OUT
 usart1 
 		Tx	portA.9
 		Rx	portA.10

@@ -36,8 +36,8 @@
 ..\obj\system.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\system.o: ..\SRC\inc\system.h
 ..\obj\system.o: ..\DEV\inc\dev_sysTick.h
-..\obj\system.o: ..\SRC\inc\config.h
 ..\obj\system.o: ..\DEV\inc\dev_led.h
+..\obj\system.o: ..\SRC\inc\config.h
 ..\obj\system.o: ..\DEV\inc\dev_beep.h
 ..\obj\system.o: ..\HAL\inc\hal_uart.h
 ..\obj\system.o: ..\DEV\inc\dev_def.h

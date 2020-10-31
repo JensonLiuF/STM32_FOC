@@ -41,3 +41,14 @@
 ..\obj\main.o: ..\HAL\inc\hal_uart.h
 ..\obj\main.o: ..\DEV\inc\dev_def.h
 ..\obj\main.o: ..\SRC\inc\main.h
+..\obj\main.o: ..\PUB\inc\log.h
+..\obj\main.o: ..\RTOS\include\FreeRTOS.h
+..\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\obj\main.o: ..\RTOS\include\FreeRTOSConfig.h
+..\obj\main.o: ..\RTOS\include\projdefs.h
+..\obj\main.o: ..\RTOS\include\portable.h
+..\obj\main.o: ..\RTOS\include\deprecated_definitions.h
+..\obj\main.o: ..\RTOS\port\RVDS\ARM_CM3\portmacro.h
+..\obj\main.o: ..\RTOS\include\mpu_wrappers.h
+..\obj\main.o: ..\RTOS\include\task.h
+..\obj\main.o: ..\RTOS\include\list.h

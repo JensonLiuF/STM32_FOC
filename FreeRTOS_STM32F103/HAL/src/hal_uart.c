@@ -16,53 +16,16 @@ static void _uart3_init(uint32_t baud);
 static void _uart4_init(uint32_t baud);
 static void _uart5_init(uint32_t baud);
 
-int fputc(int ch,FILE *f)
-{
-	
-	USART_SendData(USART1, (uint8)ch);
-	
-	while(USART_GetFlagStatus(USART1, USART_FLAG_TC)== RESET);
-	
-	return (ch);
+//int fputc(int ch,FILE *f)
+//{
+//	
+//	hal_uart_sendbyte(HAL_UART_1, (uint8)ch);
+//	
+//	while(USART_GetFlagStatus(USART1, USART_FLAG_TC)== RESET);
+//	
+//	return (ch);
 
-}
-
-static void UsartSendByte(USART_TypeDef* USARTx,uint8 ch)
-{
-	
-	USART_SendData(USARTx, (uint8)ch);
-	
-	while(USART_GetFlagStatus(USARTx, USART_FLAG_TC)== RESET);
-}
-
-void UsartSendString(USART_TypeDef* USARTx,uint8 *str)
-{
-	uint32 pos = 0;
-	while(*(str+pos)!='\0')
-	{
-		UsartSendByte(USARTx,*(str+pos));
-		pos ++;
-		
-	}
-
-}
-
-//USART1_IRQHandler,串口1中断回调函数
-void USART1_IRQHandler(void)
-{
-	uint8 RecCh;
-	if( USART_GetFlagStatus(USART1,USART_FLAG_RXNE)!=RESET )				// 串口接收数据 
-	{		
-
-		RecCh =(uint8)USART_ReceiveData(USART1);
-
-		USART_ClearFlag(USART1, USART_FLAG_RXNE);
-	}
-	if( USART_GetFlagStatus(USART1,USART_FLAG_ORE)==SET ) 				// 串口溢出错误
-	{
-			USART_ClearFlag(USART1, USART_FLAG_ORE);
-	}
-}
+//}
 
 // should be in Application layer
 static void receive_char(char ch)
@@ -109,14 +72,15 @@ static int read_buf(char* buf, int len)
 }
 
 // should be in Application layer
-//void USART1_IRQHandler(void)
-//{
-//	uint8_t data = 0;
-//	while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) != RESET)
-//	{
-//		data = (uint8_t)USART_ReceiveData(USART1);
-//	}
-//}
+void USART1_IRQHandler(void)
+{
+	uint8_t data = 0;
+	while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) != RESET)
+	{
+		data = (uint8_t)USART_ReceiveData(USART1);
+		receive_char(data);
+	}
+}
 
 uint32_t get_uart_baudrate(int uart_id)
 {
@@ -311,7 +275,7 @@ static void _uart3_init(uint32_t baud)
 	
 	// Enable Gpio clock and enable uart clock
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
 
 	// init Gpio 
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_PP;
